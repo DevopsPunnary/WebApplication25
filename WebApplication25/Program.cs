@@ -1,6 +1,6 @@
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
-app.MapGet("/", () => "Devops Application1!");
+app.MapGet("/", () => "Devops Application2!");
 
 app.Run();
